@@ -5,6 +5,7 @@ import './App.css'
 import { signInWithPopup } from 'firebase/auth'
 import { auth, facebook } from './firebase/firebaseConfig'
 import Maps from './maps'
+import StreetViewMap from './steethViewMap'
 
 
 
@@ -52,6 +53,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <Maps />
+      <StreetViewMap />
 
       {/* <img style={{ width: 50, height: 50, cursor: 'pointer' }} src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1024px-Facebook_f_logo_%282019%29.svg.png" alt="facebook"
         onClick={loginFacebook}
